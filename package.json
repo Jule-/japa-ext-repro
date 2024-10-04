@@ -1,0 +1,22 @@
+{
+  "name": "japa-ext-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --loader ts-node/esm --enable-source-maps bin/test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "workspaces": [
+    "./packages/*"
+  ],
+  "devDependencies": {
+    "@japa/expect": "^3.0.0-1",
+    "@japa/runner": "^3.0.0-9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
